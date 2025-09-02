@@ -1,0 +1,13 @@
+import Link from "next/link";
+
+export default function ConditionalHeatmap() {
+    return (
+        <div className="bg-gray-600 min-h-[400px]">
+            <h1>This is Conditional Pie Chart Page</h1>
+            <br />
+            <div>
+                <Link className="m-10 pt-2 pb-2 pl-2 pr-2 rounded-sm bg-blue-400 hover:bg-amber-400" href='/conditional-routes'>Heatmap</Link>
+            </div>
+        </div>
+    );
+}
